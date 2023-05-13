@@ -42,3 +42,7 @@ function tarikTunai() {
     
 }
 
+
+function exit() {
+    return confirm("Are you sure to exit?")
+}

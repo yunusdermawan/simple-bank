@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .wrapper {
@@ -19,46 +19,37 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background: #e5e5e5;
+    background: #0080ff;
     border-radius: 20px;
 }
 
-.wrapper p {
-    text-align: center;
-    font-size: 35px;
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-#welcome {
-    font-size: 50px;
+.title-container h1 {
+    font-size: 40px;
+    color: white;
     font-weight: bold;
 }
 
-.btn {
-    margin-top: 70px;
-}
-
-.btn button {
-    width: 150px;
-    height: 50px;
-    margin-right: 20px;
-    border-radius: 10px;
-    border: 5px solid #0080ff;
-    color: #0080ff;
-    font-size: 15px;
+.title-container p {
+    font-size: 25px;
+    color: white;
     font-weight: bold;
-    background: white;
-    cursor: pointer;
 }
 
-.btn-navigate button {
+button {
     width: 200px;
     height: 50px;
     border-radius: 15px;
     border: none;
-    background: #0080ff;
+    color: #0080ff;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    color: white;
-    margin-top: 50px;
 }
